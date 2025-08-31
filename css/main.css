@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 91px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: #f3316b;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.menu button {
+    width: 131px;
+    height: 39px;
+    background: #f94e89;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 17px;
+}
+
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 137px;
+    width: 49%;
+    margin: auto;
+}
+
+.news {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #dd185d, black);
+    color: white;
+}
+
+.news marquee {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.about {
+    padding: 130px 200px;
+    text-align: center;
+    background: rgb(150, 146, 146);
+}
+
+.about h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px rgb(191, 45, 45);
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 2px;
+}
+
+.about button {
+    background: #dd185d;
+    padding: 20px 73px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.press {
+    padding: 140px 200px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(/image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.press h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px rgb(191, 45, 45);
+    margin-bottom: 10px;
+}
+
+.press p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 2px;
+
+}
+
+.press button {
+    background: #dd185d;
+    padding: 20px 73px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.team {
+    padding: 140px 200px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(/image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.team h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px rgb(191, 45, 45);
+    margin-bottom: 10px;
+}
+
+.team p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 2px;
+
+}
+
+.team button {
+    background: #dd185d;
+    padding: 20px 73px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.press button {
+    background: #dd185d;
+    padding: 20px 73px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact {
+    padding: 140px 200px;
+    text-align: center;
+    background: #dd185d;
+    ;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px rgb(191, 45, 45);
+    margin-bottom: 10px;
+}
+
+.contact p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 2px;
+
+}
+
+.contact button {
+    background: black;
+    padding: 20px 73px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 350px;
+
+}
+
+footer logo {
+    max-width: 100%;
+    height: auto;
+    padding-top: 70px;
+  
+}
